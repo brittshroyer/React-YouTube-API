@@ -1,0 +1,44 @@
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+  height: 35px;
+  padding: 4px 8px;
+}
+
+.details div:first-child {
+  font-weight: bold;
+  font-size: 125%;
+  line-height: 180%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: tomato;
+}
+
+.media-heading {
+  padding-top: 10px;
+}
