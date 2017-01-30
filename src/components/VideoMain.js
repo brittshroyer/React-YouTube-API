@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class VideoMain extends Component {
   render(){
     if(!this.props.video.snippet) {
-      return <h2>Enter a search term...</h2>;
+      return <h2>Enter a search term </h2>;
     }
     const snippet = this.props.video.snippet;
 

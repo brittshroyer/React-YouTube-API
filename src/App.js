@@ -53,6 +53,11 @@ class App extends Component {
     return (
       <div className="container">
         <SearchBar onSearchTermChanged={ this.searchTermChanged.bind(this) } />
+        <div className="divider col-md-12" />
+        <div className="antenna-container col-md-12">
+          <div className="antenna-left"></div><div className="antenna-right"></div>
+          <div className="antenna-base"></div>
+        </div>
         <VideoMain video={ this.state.activeVideo } />
         <VideoList onVideoClicked={ this.videoClicked.bind(this) } videos={ this.state.videos } />
       </div>

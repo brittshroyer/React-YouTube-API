@@ -25,6 +25,11 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+.video-detail{
+  border: 10px solid black;
+  border-radius: 25px;
+
+}
 
 .list-group {
   padding-right: 15px;
@@ -41,4 +46,36 @@
 
 .media-heading {
   padding-top: 10px;
+}
+
+.antenna-container{
+  background-color: grey;
+  margin-bottom: 0;
+
+}
+.antenna-base{
+  background-color: black;
+  height: 12px;
+  width: 40px;
+  border-radius: 40px 40px 0 0;
+  display: block;
+  margin-left: 275px;
+}
+
+.antenna-left, .antenna-right{
+  height: 100px;
+  width: 3px;
+  background-color: black;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+.antenna-left{
+  position: relative;
+  margin-left: 200px;
+}
+.antenna-right{
+  transform: rotate(-45deg);
+  margin-left: 250px;
+  margin-bottom: -20px;
+  position: static;
 }
